@@ -4,11 +4,11 @@
         <title>AbyssinianMac</title>
         <item>
             <title>0.1.0</title>
-            <pubDate>Tue, 14 Apr 2026 11:05:47 +0000</pubDate>
-            <sparkle:version>568</sparkle:version>
+            <pubDate>Tue, 14 Apr 2026 12:19:46 +0000</pubDate>
+            <sparkle:version>569</sparkle:version>
             <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/k-ymmt/homebrew-Abyssinian-releases/releases/download/v0.1.0-568/Abyssinian-0.1.0.zip" length="9036409" type="application/octet-stream" sparkle:edSignature="OTcmjlrG+hhJntHMsD+KLeS4pGEUSiY9Shp0DTtXTfGrG2lMUk5Oc7Y9RQm/3Up6SElbhDnDPaC/55TNKnhXDQ=="/>
+            <enclosure url="https://github.com/k-ymmt/homebrew-Abyssinian-releases/releases/download/v0.1.0-569/Abyssinian-0.1.0.zip" length="9036387" type="application/octet-stream" sparkle:edSignature="qqw8nLca2sY5YjqKLNf3Ixry9Ay088tyq2wbyK2uiZglGNIwIg8fQmrPXhsExh7ARnpKJ1WSwosD23kMlFY5Cg=="/>
         </item>
     </channel>
 </rss>
