@@ -3,12 +3,12 @@
     <channel>
         <title>LapermMac</title>
         <item>
-            <title>0.1.5</title>
-            <pubDate>Sun, 19 Apr 2026 16:10:23 +0000</pubDate>
-            <sparkle:version>823</sparkle:version>
-            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
+            <title>0.1.6</title>
+            <pubDate>Sun, 19 Apr 2026 17:04:34 +0000</pubDate>
+            <sparkle:version>826</sparkle:version>
+            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/k-ymmt/homebrew-Laperm-releases/releases/download/v0.1.5-823/Laperm-0.1.5.zip" length="9206338" type="application/octet-stream" sparkle:edSignature="0btc8RY0PbndkxcYajZUv5DJm55G/wwOuiXyA4Mvu1kBNtojZ8GHi5w8cJR6IDGFclegO66V7annEa1P4oiXBg=="/>
+            <enclosure url="https://github.com/k-ymmt/homebrew-Laperm-releases/releases/download/v0.1.6-826/Laperm-0.1.6.zip" length="9206333" type="application/octet-stream" sparkle:edSignature="pWAKO16x6gGvyjUAtdHEdTWDMJV3735y7b+Nm+dLF/MY5snF6czPqPXxwvM7YRb/g/Io6G69HkfwM6AvFsX1CA=="/>
         </item>
     </channel>
 </rss>
