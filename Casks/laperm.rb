@@ -1,21 +1,30 @@
 cask "laperm" do
-  version "0.1.1"
-  sha256 :no_check
+  version "0.1.0,0"
+  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
-  url "https://github.com/k-ymmt/homebrew-Laperm-releases/releases/latest/download/Laperm-#{version}.zip"
+  url "https://github.com/k-ymmt/homebrew-Laperm-releases/releases/download/v#{version.csv.first}-#{version.csv.second}/Laperm-#{version.csv.first}-#{version.csv.second}.zip"
   name "Laperm"
-  desc "Cross-platform markdown note-taking app"
-  homepage "https://k-ymmt.github.io/homebrew-Laperm-releases/"
+  desc "Local Markdown editor built around a folder of plain .md files"
+  homepage "https://github.com/k-ymmt/homebrew-Laperm-releases"
 
-  auto_updates true
-  depends_on macos: ">= :ventura"
+  livecheck do
+    url :url
+    regex(/^v?(\d+(?:\.\d+)+)-(\d+)$/i)
+    strategy :github_latest do |json, regex|
+      match = json["tag_name"]&.match(regex)
+      next if match.blank?
 
-  app "LapermMac.app"
+      "#{match[1]},#{match[2]}"
+    end
+  end
+
+  depends_on macos: ">= :golden_gate"
+
+  app "LapermMac.app", target: "Laperm.app"
 
   zap trash: [
-    "~/Library/Application Support/LapermMac",
-    "~/Library/Caches/app.kymmt.LapermMac",
-    "~/Library/HTTPStorages/app.kymmt.LapermMac",
-    "~/Library/Preferences/app.kymmt.LapermMac.plist",
+    "~/Library/Application Scripts/app.kymmt.LapermMac",
+    "~/Library/Containers/app.kymmt.LapermMac",
+    "~/Library/Saved Application State/app.kymmt.LapermMac.savedState",
   ]
 end
