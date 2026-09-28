@@ -1,6 +1,6 @@
 cask "laperm" do
-  version "0.1.0,0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "0.1.0,130"
+  sha256 "0a840bd52401dfa334bc64eb41471a3887ca87e26c8af4d9c0f341d31d6d2800"
 
   url "https://github.com/k-ymmt/homebrew-Laperm-releases/releases/download/v#{version.csv.first}-#{version.csv.second}/Laperm-#{version.csv.first}-#{version.csv.second}.zip"
   name "Laperm"
