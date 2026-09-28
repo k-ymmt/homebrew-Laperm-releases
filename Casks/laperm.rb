@@ -18,7 +18,7 @@ cask "laperm" do
     end
   end
 
-  depends_on macos: :golden_gate
+  depends_on macos: :tahoe
 
   app "LapermMac.app", target: "Laperm.app"
 

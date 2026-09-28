@@ -9,7 +9,7 @@ editor for macOS (and iOS) that keeps a folder of plain `.md` files as its only 
 brew install --cask k-ymmt/laperm-releases/laperm
 ```
 
-This installs `/Applications/Laperm.app` (macOS 27 or later). Builds are signed with a Developer ID
+This installs `/Applications/Laperm.app` (macOS 26 or later). Builds are signed with a Developer ID
 and notarized by Apple.
 
 Homebrew 6 requires [tap trust](https://docs.brew.sh/Tap-Trust) for third-party taps. The fully
