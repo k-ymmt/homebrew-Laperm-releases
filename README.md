@@ -12,6 +12,10 @@ brew install --cask k-ymmt/laperm-releases/laperm
 This installs `/Applications/Laperm.app` (macOS 27 or later). Builds are signed with a Developer ID
 and notarized by Apple.
 
+Homebrew 6 requires [tap trust](https://docs.brew.sh/Tap-Trust) for third-party taps. The fully
+qualified name above trusts only the `laperm` cask, which is enough for `brew upgrade`; trusting the
+whole tap (`brew trust k-ymmt/laperm-releases`) is not needed.
+
 ## Update
 
 ```sh
